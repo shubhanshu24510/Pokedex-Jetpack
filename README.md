@@ -18,7 +18,7 @@
 <img src="previews/screenshot.png"/>
 </p>
 
-<img src="previews/preview.gif" align="right" width="320"/>
+<img src="https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7" align="right" width="320"/>
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21.

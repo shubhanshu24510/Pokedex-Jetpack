@@ -14,9 +14,12 @@
 <img src="https://github.com/user-attachments/assets/88037853-3014-499d-9919-ee687678a92b"/>
 </p> 
 
+![preview](https://github.com/user-attachments/assets/f89423b0-13db-4019-b2bc-ea345b75241d)
+
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21.
 - [Kotlin](https://kotlinlang.org/) based, utilizing [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) + [Flow](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/) for asynchronous operations.
+- 
 - Jetpack Libraries:
   - Jetpack Compose: Android’s modern toolkit for declarative UI development.
   - Lifecycle: Observes Android lifecycles and manages UI states upon lifecycle changes.

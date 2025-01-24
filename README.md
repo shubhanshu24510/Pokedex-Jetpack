@@ -12,11 +12,9 @@
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7"/>
-</p>
+</p> 
 
-<img src="https://github.com/user-attachments/assets/5a7f3ac8-6add-46f8-9568-544a6c4ffb18" align="right" width="320"/>
-
-``` ![preview](https://github.com/user-attachments/assets/5a7f3ac8-6add-46f8-9568-544a6c4ffb18) ```
+ <img src = ![preview](https://github.com/user-attachments/assets/5a7f3ac8-6add-46f8-9568-544a6c4ffb18) align="right" width="320"/>
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21.

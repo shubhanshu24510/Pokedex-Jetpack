@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/5a7f3ac8-6add-46f8-9568-544a6c4ffb18"/>
+<img src="https://github.com/user-attachments/assets/02b6a606-3fb0-4eaa-b332-bdbfb80c5458"/>
 </p> 
 
 ## Tech stack & Open-source libraries

@@ -15,10 +15,10 @@
 </p>
 
 <p align="center">
-<img src="previews/screenshot.png"/>
+<img src="[previews/screenshot.png](https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7)"/>
 </p>
 
-<img src="https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7" align="right" width="320"/>
+<img src="" align="right" width="320"/>
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21.

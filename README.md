@@ -14,7 +14,7 @@
 <img src="https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7"/>
 </p>
 
-<img src="" align="right" width="320"/>
+<img src="https://github.com/user-attachments/assets/670a6631-6af1-46b9-bcce-9dd9f8a8fbdc" align="right" width="320"/>
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21.
@@ -41,7 +41,9 @@
 ## Architecture
 **Pokedex Compose** adheres to the MVVM architecture and implements the Repository pattern, aligning with [Google's official architecture guidance](https://developer.android.com/topic/architecture).
 
-![architecture](figure/figure0.png)
+![architecture]([figure/figure0.png](https://github.com/user-attachments/assets/38d869a5-e3bf-4ae5-b8e7-5c106ffc518))
+
+
 
 The architecture of **Pokedex Compose** is structured into two distinct layers: the UI layer and the data layer. Each layer fulfills specific roles and responsibilities, outlined as follows:
 

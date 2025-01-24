@@ -39,7 +39,7 @@
 ## Architecture
 **Pokedex Compose** adheres to the MVVM architecture and implements the Repository pattern, aligning with [Google's official architecture guidance](https://developer.android.com/topic/architecture).
 
-![architecture]([figure/figure0.png](https://github.com/user-attachments/assets/38d869a5-e3bf-4ae5-b8e7-5c106ffc518))
+![architecture]([https://github.com/user-attachments/assets/09ca369a-968a-435e-bb89-f1856120bac5]))
 
 
 
@@ -49,7 +49,7 @@ The architecture of **Pokedex Compose** is structured into two distinct layers: 
 
 ### Architecture Overview
 
-![architecture](https://github.com/user-attachments/assets/09ca369a-968a-435e-bb89-f1856120bac5)
+![architecture](https://github.com/user-attachments/assets/29f555f6-2339-40dc-899c-79835b0c7fb7)
 
 - Each layer adheres to the principles of [unidirectional event/data flow](https://developer.android.com/topic/architecture/ui-layer#udf): the UI layer sends user events to the data layer, and the data layer provides data streams to other layers.
 - The data layer operates autonomously from other layers, maintaining purity without dependencies on external layers.
@@ -58,14 +58,14 @@ This loosely coupled architecture enhances component reusability and app scalabi
 
 ### UI Layer
 
-![architecture](https://github.com/user-attachments/assets/f3429fcc-9a42-449c-96c8-09f217efc51a)
+![architecture](https://github.com/user-attachments/assets/80d123e6-e72b-4ca8-998b-a9edec78ae19)
 
 The UI layer encompasses UI elements responsible for configuring screens for user interaction, alongside the [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel), which manages app states and restores data during configuration changes.
 - UI elements observe the data flow, ensuring synchronization with the underlying data layer.
 
 ### Data Layer
 
-![architecture](https://github.com/user-attachments/assets/d35e23a8-c9d1-4737-a1d0-de6bbefe7f43)
+![architecture](https://github.com/user-attachments/assets/0bdebc42-69a1-41a2-ad8f-d57d3cbf9124)
 
 The data layer is composed of repositories that handle business logic tasks such as retrieving data from a local database or fetching remote data from a network. This layer is designed to prioritize offline access, functioning primarily as an offline-first repository of business logic. It adheres to the principle of "single source of truth," ensuring that all data operations are centralized and consistent.<br>
 

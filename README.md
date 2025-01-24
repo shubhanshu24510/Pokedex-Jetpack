@@ -14,7 +14,9 @@
 <img src="https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7"/>
 </p>
 
-<img src="https://github.com/user-attachments/assets/670a6631-6af1-46b9-bcce-9dd9f8a8fbdc" align="right" width="320"/>
+<img src="https://github.com/user-attachments/assets/5a7f3ac8-6add-46f8-9568-544a6c4ffb18" align="right" width="320"/>
+
+``` ![preview](https://github.com/user-attachments/assets/5a7f3ac8-6add-46f8-9568-544a6c4ffb18) ```
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21.

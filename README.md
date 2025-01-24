@@ -94,7 +94,7 @@ Support it by joining  __[follow me](https://github.com/shubhanshu24510)__ on Gi
 
 # License
 ```xml
-Designed and developed by 2024 skydoves (Jaewoong Eum)
+Designed and developed by 2025 shubhanshu24510 (Shubhanshu Singh)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

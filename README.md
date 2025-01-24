@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-<img src="[previews/screenshot.png](https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7)"/>
+<img src="https://github.com/user-attachments/assets/0655952c-698b-4bc4-b863-6723b94372a7"/>
 </p>
 
 <img src="" align="right" width="320"/>

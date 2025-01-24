@@ -37,15 +37,13 @@
 
 
 ## Architecture
-**Pokedex Compose** adheres to the MVVM architecture and implements the Repository pattern, aligning with [Google's official architecture guidance](https://developer.android.com/topic/architecture).
+**Pokedex Jetpack** adheres to the MVVM architecture and implements the Repository pattern, aligning with [Google's official architecture guidance](https://developer.android.com/topic/architecture).
 
-![architecture]([https://github.com/user-attachments/assets/09ca369a-968a-435e-bb89-f1856120bac5]))
+![architecture](https://github.com/user-attachments/assets/09ca369a-968a-435e-bb89-f1856120bac5)
 
+The architecture of **Pokedex Jetpack** is structured into two distinct layers: the UI layer and the data layer. Each layer fulfills specific roles and responsibilities, outlined as follows:
 
-
-The architecture of **Pokedex Compose** is structured into two distinct layers: the UI layer and the data layer. Each layer fulfills specific roles and responsibilities, outlined as follows:
-
-**Pokedex Compose** follows the principles outlined in the [Guide to app architecture](https://developer.android.com/topic/architecture), making it an exemplary demonstration of architectural concepts in practical application.
+**Pokedex Jetpack** follows the principles outlined in the [Guide to app architecture](https://developer.android.com/topic/architecture), making it an exemplary demonstration of architectural concepts in practical application.
 
 ### Architecture Overview
 

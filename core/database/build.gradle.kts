@@ -22,7 +22,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.domain)
+    implementation(projects.core.model)
 
     // coroutines
     implementation(libs.kotlinx.coroutines.android)

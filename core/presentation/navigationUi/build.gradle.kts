@@ -11,7 +11,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.domain)
+    implementation(projects.core.model)
 
     implementation(libs.androidx.core)
     implementation(libs.kotlinx.coroutines.android)

@@ -92,17 +92,14 @@ android {
 
 
 dependencies {
-    //core
-    implementation(project(":core:domain"))
-    implementation(project(":core:data"))
-    implementation(project(":core:database"))
-    implementation(project(":core:network"))
-    implementation(project(":core:presentation:designsystem"))
-    implementation(project(":core:presentation:navigationUi"))
+    // features
+    implementation(projects.feature.home)
+    implementation(projects.feature.details)
 
-    //feature
-    implementation(project(":feature:home"))
-    implementation(project(":feature:details"))
+    // cores
+    implementation(projects.core.model)
+    implementation(projects.core.presentation.designsystem)
+    implementation(projects.core.presentation.navigationUi)
 
     // compose
     implementation(libs.androidx.activity.compose)

@@ -17,11 +17,10 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
       }
 
       dependencies {
-        add("implementation", project(":core:designsystem"))
-        add("implementation", project(":core:navigation"))
-        add("implementation", project(":core:viewmodel"))
+        add("implementation", project(":core:presentation:designsystem"))
+        add("implementation", project(":core:presentation:navigationUi"))
         add("implementation", project(":core:data"))
-        add("compileOnly", project(":core:preview"))
+        add("compileOnly", project(":core:previews"))
       }
 
       extensions.configure<LibraryExtension> {

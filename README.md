@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-<img src="previews/screenshot.png"/>
+<img src="core/previews/screenshot.png"/>
 </p> 
 
-<img src="previews/preview.gif" align="right" width="320"/>
+<img src="core/previews/preview.gif" align="right" width="320"/>
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21.

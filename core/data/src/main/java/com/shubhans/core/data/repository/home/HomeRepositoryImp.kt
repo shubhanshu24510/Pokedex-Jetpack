@@ -14,8 +14,9 @@ import com.skydoves.sandwich.message
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.flow.onStart
+import javax.inject.Inject
 
-class HomeRepositoryImp(
+class HomeRepositoryImp @Inject constructor(
     private val pokemonDao: PokemonDao,
     private val pokemonClient: PokemonClient,
     @DispatcherIO(PokemonAppDispatchers.IO) private val ioDispatchers: CoroutineDispatcher

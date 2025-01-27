@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.room.Room
 import com.shubhans.core.database.PokemonDao
 import com.shubhans.core.database.PokemonDatabase
+import com.shubhans.core.database.PokemonInfoDao
 import com.shubhans.core.database.StatsResponseConverter
 import com.shubhans.core.database.TypeResponseConverter
 import com.shubhans.core.database.entity.PokemonInfoEntity
@@ -45,7 +46,7 @@ internal object DatabaseModule {
 
     @Provides
     @Singleton
-    fun providePokemonInfoDao(appDatabase: PokemonDatabase): PokemonInfoEntity {
+    fun providePokemonInfoDao(appDatabase: PokemonDatabase): PokemonInfoDao {
         return appDatabase.pokemonInfoDao()
     }
 

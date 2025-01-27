@@ -14,5 +14,5 @@ import com.shubhans.core.database.entity.PokemonInfoEntity
 @TypeConverters(value = [TypeResponseConverter::class, StatsResponseConverter::class])
 abstract class PokemonDatabase : RoomDatabase() {
     abstract fun pokemonDao(): PokemonDao
-    abstract fun pokemonInfoDao(): PokemonInfoEntity
+    abstract fun pokemonInfoDao(): PokemonInfoDao
 }

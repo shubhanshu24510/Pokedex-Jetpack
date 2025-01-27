@@ -9,29 +9,30 @@ import org.gradle.kotlin.dsl.getByType
 import org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension
 
 class AndroidFeatureConventionPlugin : Plugin<Project> {
-  override fun apply(target: Project) {
-    with(target) {
-      pluginManager.apply {
-        apply("com.android.library")
-        apply("org.jetbrains.kotlin.android")
-      }
+    override fun apply(target: Project) {
+        with(target) {
+            pluginManager.apply {
+                apply("com.android.library")
+                apply("org.jetbrains.kotlin.android")
+            }
 
-      dependencies {
-        add("implementation", project(":core:presentation:designsystem"))
-        add("implementation", project(":core:presentation:navigationUi"))
-        add("implementation", project(":core:data"))
-        add("compileOnly", project(":core:previews"))
-      }
+            dependencies {
+                add("implementation", project(":core:designsystem"))
+                add("implementation", project(":core:navigation"))
+                add("implementation", project(":core:viewModel"))
+                add("implementation", project(":core:data"))
+                add("compileOnly", project(":core:preview"))
+            }
 
-      extensions.configure<LibraryExtension> {
-        configureKotlinAndroid(this)
-        configureAndroidCompose(this)
-        defaultConfig.targetSdk = 35
-      }
+            extensions.configure<LibraryExtension> {
+                configureKotlinAndroid(this)
+                configureAndroidCompose(this)
+                defaultConfig.targetSdk = 35
+            }
 
-      extensions.getByType<KotlinAndroidProjectExtension>().apply {
-        configureKotlinAndroid(this)
-      }
+            extensions.getByType<KotlinAndroidProjectExtension>().apply {
+                configureKotlinAndroid(this)
+            }
+        }
     }
-  }
 }

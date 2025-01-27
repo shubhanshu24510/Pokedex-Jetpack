@@ -8,7 +8,6 @@ import com.shubhans.core.database.entity.PokemonEntity
 
 @Dao
 interface PokemonDao {
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertPokemonList(pokemonList: List<PokemonEntity>)
 

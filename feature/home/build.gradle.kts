@@ -6,3 +6,6 @@ plugins {
 android {
     namespace = "com.shubhans.feature.home"
 }
+dependencies {
+    implementation(projects.core.viewModel)
+}

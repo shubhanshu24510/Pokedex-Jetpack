@@ -1,4 +1,4 @@
-package com.shubhans.pokedex
+package com.shubhans.pokedex.navigation
 
 import androidx.compose.animation.SharedTransitionLayout
 import androidx.compose.runtime.Composable

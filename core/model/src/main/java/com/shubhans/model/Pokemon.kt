@@ -10,10 +10,12 @@ import kotlinx.serialization.Serializable
 @Parcelize
 @Serializable
 data class Pokemon(
-    var page: Int,
-    @SerialName(value = "name") val nameField: String,
-    @SerialName(value = "url") val url: String
+    var page: Int = 0,
+    @SerialName(value = "name")
+    val nameField: String,
+    @SerialName(value = "url") val url: String,
 ) : Parcelable {
+
     val name: String
         get() = nameField.replaceFirstChar { it.uppercase() }
 

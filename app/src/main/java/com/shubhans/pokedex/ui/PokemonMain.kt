@@ -6,7 +6,7 @@ import androidx.navigation.compose.rememberNavController
 import com.shubhans.core.navigation.AppComposeNavigator
 import com.shubhans.core.navigation.PokedexScreen
 import com.shubhans.core.presentation.designsystem.theme.PokedexTheme
-import com.shubhans.pokedex.PokemonNavHost
+import com.shubhans.pokedex.navigation.PokemonNavHost
 
 @Composable
 fun PokemonMain(composeNavigator: AppComposeNavigator<PokedexScreen>) {

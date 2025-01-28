@@ -1,11 +1,11 @@
 package com.shubhans.core.network.model
 
-import android.annotation.SuppressLint
 import com.shubhans.model.Pokemon
+import kotlinx.serialization.InternalSerializationApi
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
-@SuppressLint("UnsafeOptInUsageError")
+@OptIn(InternalSerializationApi::class)
 @Serializable
 data class PokemonResponse(
     @SerialName(value = "count") val count: Int,

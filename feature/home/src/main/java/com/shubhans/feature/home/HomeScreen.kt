@@ -42,6 +42,7 @@ import com.shubhans.core.navigation.PokedexScreen
 import com.shubhans.core.navigation.boundsTransform
 import com.shubhans.core.navigation.currentComposeNavigator
 import com.shubhans.core.presentation.designsystem.components.PokemonAppBar
+import com.shubhans.core.presentation.designsystem.components.PokemonCircularProgress
 import com.shubhans.core.presentation.designsystem.components.pokedexSharedElement
 import com.shubhans.core.presentation.designsystem.theme.PokedexTheme
 import com.shubhans.core.preview.PokemonPreviewTheme
@@ -110,7 +111,7 @@ private fun SharedTransitionScope.HomeContent(
             }
         }
         if (uiState == HomeUiState.Loading) {
-            CircularProgressIndicator()
+            PokemonCircularProgress()
         }
     }
 }
@@ -129,15 +130,12 @@ private fun SharedTransitionScope.PokemonCard(
             .fillMaxWidth()
             .clickable {
                 composeNavigator.navigate(route = PokedexScreen.Details(pokemon = pokemon))
-            },
-        shape = RoundedCornerShape(14.dp),
-        colors = CardColors(
+            }, shape = RoundedCornerShape(14.dp), colors = CardColors(
             contentColor = backgroundColor,
             containerColor = backgroundColor,
             disabledContentColor = backgroundColor,
             disabledContainerColor = backgroundColor,
-        ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        ), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         GlideImage(
             modifier = Modifier
@@ -197,16 +195,16 @@ private fun PokedexHomePreview() {
     }
 }
 
-@Preview
-@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)
-@Composable
-private fun HomeContentPreview() {
-    PokemonPreviewTheme { scope ->
-        HomeContent(
-            animatedVisibilityScope = scope,
-            uiState = HomeUiState.Idle,
-            pokemonList = PreviewUtils.mockPokemonList().toImmutableList(),
-            fetchNextPokemonList = { HomeViewModel(homeRepository = FakeHomeRepository()) },
-        )
-    }
-}
+//@Preview
+//@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)
+//@Composable
+//private fun HomeContentPreview() {
+//    PokemonPreviewTheme { scope ->
+//        HomeContent(
+//            animatedVisibilityScope = scope,
+//            uiState = HomeUiState.Idle,
+//            pokemonList = PreviewUtils.mockPokemonList().toImmutableList(),
+//            fetchNextPokemonList = { HomeViewModel(homeRepository = FakeHomeRepository()) },
+//        )
+//    }
+//}

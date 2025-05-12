@@ -90,8 +90,21 @@ For more information, check out the [Guide to Android app modularization](https:
 Pokedex using the [PokeAPI](https://pokeapi.co/) for constructing RESTful API.<br>
 PokeAPI provides a RESTful API interface to highly detailed objects built from thousands of lines of data related to Pokémon.
 
-## Find this repository useful? :heart:
-Support it by joining  __[follow me](https://github.com/shubhanshu24510)__ on GitHub for my next creations! 🤩
+---
+
+## 🤝 Support
+
+If you like this project, please consider ⭐ starring the repo and following me for more cool Android projects!
+
+☕ You can also support my work by buying me a coffee:
+
+<p align="left">
+  <a href="https://buymeacoffee.com/shubhanshu24510" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217">
+  </a>
+</p>
+
+---
 
 # License
 ```xml
